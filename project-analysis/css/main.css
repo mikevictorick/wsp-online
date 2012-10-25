@@ -1,0 +1,118 @@
+/* -------------colors--------- 
+mechwari:333333
+disco:434241
+bruiseend:6f6d69
+bedwarmerrobotta:d1d0ce
+white:ffffff
+-------------------------------- */
+
+
+/* -------------main--------- */
+
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 35px 0px;
+	background color: #ffffff;
+	font: 80%/1.5em Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 80%;
+	border: 5px solid rgba(0,0,0,0.5);
+	padding: 15px;
+}
+
+.header-info {
+	margin-bottom: 20px;
+}
+
+
+h3 span {
+	padding: 20px 0px 0px 10px
+}
+
+h3 {
+	color: #434241;
+}
+
+h2 {
+	color: #434241;
+	border-bottom: 1px solid #333333;
+}
+
+body p {
+	color:#6f6d69;
+	margin: 0px 10px 10px 15px;
+	 
+}
+
+body a {
+	color: #333;
+	text-decoration: none;
+}
+
+section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.col_6 	{ 
+	width: 48.333333333333%; 
+	margin-left: 0.83333333333333%;
+	margin-right: 0.83333333333333%;
+	margin-top:8px;
+	margin-bottom:8px;
+	float: left;
+	display: block;
+}
+
+table {
+	width:100%;
+	margin:0 0 10px 0;
+	text-align:left;
+	border-collapse: collapse;
+}
+	
+	 
+thead, tbody {
+	margin:0;padding:0;
+}
+
+th, td {
+	padding:7px 10px;
+	font-size:0.9em;
+	border-bottom:1px dotted #dddddd;
+	text-align:left;
+}
+
+thead th {
+	font-size:0.9em;
+	padding:3px 10px;
+	border-bottom:1px solid #dddddd;
+}
+	
+tbody tr.last th, tbody tr.last td {
+	border-bottom:0;
+}
+
+tbody .odd {
+	background: #d1d0ce;
+	font: #ffffff;
+}
+
+.target {
+	clear:both;
+	display:block;
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
