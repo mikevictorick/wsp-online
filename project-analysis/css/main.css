@@ -13,7 +13,6 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 35px 0px;
-	background color: #ffffff;
 	font: 80%/1.5em Helvetica, sans-serif;
 }
 
@@ -81,6 +80,16 @@ thead, tbody {
 	margin:0;padding:0;
 }
 
+thead {
+	color: #333333;
+}
+
+
+td {
+	color: #434241;
+}
+
+
 th, td {
 	padding:7px 10px;
 	font-size:0.9em;
@@ -88,20 +97,23 @@ th, td {
 	text-align:left;
 }
 
+
 thead th {
 	font-size:0.9em;
 	padding:3px 10px;
 	border-bottom:1px solid #dddddd;
 }
+
 	
 tbody tr.last th, tbody tr.last td {
 	border-bottom:0;
 }
 
+
 tbody .odd {
 	background: #d1d0ce;
-	font: #ffffff;
 }
+
 
 .target {
 	clear:both;
