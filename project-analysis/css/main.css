@@ -19,8 +19,9 @@ body {
 
 #wrapper {
 	width: 80%;
+	margin: 0 auto;
 	border: 5px solid rgba(0,0,0,0.5);
-	padding: 15px;
+	
 }
 
 .header-info {
