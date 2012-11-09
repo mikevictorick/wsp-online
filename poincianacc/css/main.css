@@ -239,7 +239,7 @@ img.alignleft {
 
 
 body {
-    max-width: 1020px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #d5d6c8;
     background-image: (../img/background.gif); 
@@ -249,7 +249,7 @@ body {
 }
 
 #wrapper {
-    width: 80.392157%; /* 820px */
+    width: 85.416666666667%; /* 820px */
     margin: 0 auto;
 }
 
@@ -279,21 +279,20 @@ header img {
 
 nav {
     width: 100%;
-    height: 55px;
-    margin-bottom: 10px;
-    
-    background-color: #e4dfbd;
-    /*clear: left;*/     
+    height: 3.3em; /*55px;*/
+    margin-bottom: 1.0em; /*10px;*/
+    background-color: #e4dfbd; 
 }
 
 nav ul {
     margin: 0 auto;
     list-style-type: none;
-    line-height: 55px;
+    line-height: 3.3em; /*55px;*/
     float: left;
 }
 
 nav ul li {
+    width: 15.243902439024%; /*125px*/
     font-family: "BebasRegular", sans-serif;
     font-size: 1.500em; /*24px*/
     display: inline;
@@ -301,10 +300,10 @@ nav ul li {
     padding: 15px;
 }
 
-
 nav ul li a:link {
     text-decoration: none;
     color: #b7be91;
+    background-color: #e4dfbd;
 }
 
 nav ul li a:visited {
@@ -354,10 +353,10 @@ p.h5bp {
 
 .times {
     display: block;
-    padding: 0px;
+    padding: 0;
     float: left;
     width: 29.268292682927%; /*240px*/
-    height: 240px;
+    height: 15em;
     background-color: #5f6c3d;
 }
 
@@ -368,7 +367,6 @@ p.h5bp {
 
 .times ul li {
     margin: 0 auto;
-    padding: 0px;
     list-style-type: none;
     font: .8em "Helvetica Nueu", sans-serif;
     color: #d1d6cf; 
@@ -399,12 +397,11 @@ p.h5bp {
     padding: 0px;
     float: left;
     width: 29.268292682927%; /*240px*/
-    height: 240px;
+    height: 15em;
     background-color: #5f6c3d;
 }
 
 .sermons ul; {
-    margin: 0;
     padding: 0;
 }
 
@@ -452,7 +449,7 @@ p.h5bp {
     padding: 0px;
     float: left;
     width: 29.268292682927%; /*240px*/
-    height: 240px;
+    height: 15em;
     background-color: #5f6c3d;
 }
 
@@ -765,6 +762,63 @@ footer ul {
 footer ul li {
     display: inline;
 }
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+
+    /*Tablet Portrait size to standard 960(devices and browsers) */
+    @media screen and (min-width: 768px) and (max-width: 959px) 
+    {
+
+    }
+
+    /*Tablet Portrait size to standard 960(devices and browsers) */
+    @media screen and (min-width: 480px) and (max-width: 767px) 
+    {
+        #wrapper {background-color: black;}
+        .times, .sermon, .contact {float: none;}
+    }
+
+    /*Tablet Portrait size to standard 960(devices and browsers) */
+    @media screen and (max-width: 479px)
+    {
+        #wrapper {background-color: blue;}
+        .believe img {visibility: none;}
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
