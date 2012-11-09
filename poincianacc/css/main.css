@@ -7,8 +7,30 @@
  */
 
 /* ==========================================================================
+   Colors 
+   ========================================================================== */
+  /*  
+  *  light green : d5d6c8 
+  *  dark green : 8d9774
+  *  light(darker) green : d4d6c6
+  *  nav bg color : e4dfbd
+  *  mid green : b7be91
+  */
+/* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../bebas/BEBAS___-webfont.eot');
+    src: url('../bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bebas/BEBAS___-webfont.woff') format('woff'),
+         url('../bebas/BEBAS___-webfont.ttf') format('truetype'),
+         url('../bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 button,
@@ -18,10 +40,7 @@ textarea {
     color: #222;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -100,13 +119,14 @@ textarea {
 	*/
 
 body {
-	font: 9pt/1.5em Arial, Helvetica, sans-serif;
+	font: 9pt/1.5em "Helvetica Nueu", Helvetica, sans-serif;
 }
 pre, code, tt {
 	font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
 }
 h1, h2, h3, h4, h5, h6, b, strong {
-	font-weight: bold;
+    font: "BebasRegular", Helvetica, sans-serif;
+    color: #8d9774;
 }
 em, i, dfn {
 	font-style: italic;
@@ -123,27 +143,7 @@ blockquote {
 cite {
 	font-style: italic;
 }
-li ul, li ol {
-	margin:0 1.5em;
-}
-ul, ol {
-	margin:0 1.5em 1.5em 1.5em;
-}
-ul li {
-	list-style-type:disc;
-}
-ol li {
-	list-style-type:decimal;
-}
-ol ol li {
-	list-style: upper-alpha;
-}
-ol ol ol li {
-	list-style: lower-roman;
-}
-ol ol ol ol li {
-	list-style: lower-alpha;
-}
+
 dl {
 	margin:0 0 1.5em 0;
 }
@@ -238,205 +238,538 @@ img.alignleft {
    ========================================================================== */
 
 
+body {
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: #d5d6c8;
+    background-image: (../img/background.gif); 
+    background-repeat: repeat;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+#wrapper {
+    width: 80.392157%; /* 820px */
+    margin: 0 auto;
+}
+
+h3.h5bp {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url(test.png);
+  width: 300px;
+  height: 75px;
+}
+
+
+/* ==========================================================================
+   Nav 
+   ========================================================================== */
+
+header {
+    min-height: 30px;
+    max-height: 130px;
+}
+
+header img {
+      padding-bottom: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 10px;
+    
+    background-color: #e4dfbd;
+    /*clear: left;*/     
+}
+
+nav ul {
+    margin: 0 auto;
+    list-style-type: none;
+    line-height: 55px;
+    float: left;
+}
+
+nav ul li {
+    font-family: "BebasRegular", sans-serif;
+    font-size: 1.500em; /*24px*/
+    display: inline;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+nav ul li a:link {
+    text-decoration: none;
+    color: #b7be91;
+}
+
+nav ul li a:visited {
+    color: #b7be91;
+}
+
+nav ul li a:hover {
+    color: #5f6c3d;
+}
+
+nav ul li a:active {
+    color: #8d9774;
+}
 
 
 
+/* ==========================================================================
+   Slideshow
+   ========================================================================== */
 
 
+p.h5bp {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url(test.png);
+  width: 300px;
+  height: 75px;
+}
+
+.believe img {
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* ==========================================================================
+   Times of Service
+   ========================================================================== */
+
+#timessermonscontact {
+    margin: 0 auto;
+}
 
 
+.times {
+    display: block;
+    padding: 0px;
+    float: left;
+    width: 29.268292682927%; /*240px*/
+    height: 240px;
+    background-color: #5f6c3d;
+}
 
+.times ul; {
+    margin: 0;
+    padding: 0;
+}
 
+.times ul li {
+    margin: 0 auto;
+    padding: 0px;
+    list-style-type: none;
+    font: .8em "Helvetica Nueu", sans-serif;
+    color: #d1d6cf; 
+}
 
+.times ul li h2 {
+    margin-left: -20px;
+    padding: 0;
+    font: 1.938em "BebasRegular", sans-serif;
+    color: #e4dfb9; 
+}
+
+.times ul li h3 {
+    margin-left: -10px;
+    padding: 0;    
+}
 
 
 
 
 
 /* ==========================================================================
-   Helper classes
+   Favorite Sermons
+   ========================================================================== */
+.sermons {
+    display: block;
+    margin-left: 50px;
+    padding: 0px;
+    float: left;
+    width: 29.268292682927%; /*240px*/
+    height: 240px;
+    background-color: #5f6c3d;
+}
+
+.sermons ul; {
+    margin: 0;
+    padding: 0;
+}
+
+.sermons ul li {
+    margin: 0 auto;
+    padding: 0px;
+    list-style-type: none;
+    font: .8em "Helvetica Nueu", sans-serif;
+    color: #d1d6cf; 
+}
+
+.sermons ul li h2 {
+    margin-left: -20px;
+    padding: 0;
+    font: 1.938em "BebasRegular", sans-serif;
+    color: #e4dfb9; 
+}
+
+.sermons ul li a:link {
+    color: #d1d6cf;
+    font: 1.5em "BebasRegular", sans-serif;
+}
+
+.sermons ul li a:visited {
+    color: #b7be91;
+}
+
+.sermons ul li a:hover {
+    color: #e4dfb9;
+}
+
+.sermons ul li a:active {
+    color: #8d9774;
+}
+
+
+
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+.contact {
+    display: block;
+    margin-left: 50px;
+    padding: 0px;
+    float: left;
+    width: 29.268292682927%; /*240px*/
+    height: 240px;
+    background-color: #5f6c3d;
+}
+
+.contact ul; {
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 0 auto;
+    padding: 0px;
+    list-style-type: none;
+    font: .8em "Helvetica Nueu", sans-serif;
+    color: #d1d6cf; 
+}
+
+.contact ul li h2 {
+    margin-left: -20px;
+    padding: 0;
+    font: 1.938em "BebasRegular", sans-serif;
+    color: #e4dfb9; 
+}
+
+.contact ul li h3 {
+    margin-left: -10px;
+    padding: 0;    
+}
+
+
+/* ==========================================================================
+   Our Staff
    ========================================================================== */
 
-/*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
+.meetourstaff {
+    float: left;
+    width: 90.853658536585%; /*745px*/
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
-.ir:before {
-    content: "";
+.meetourstaff h2 {
+    font-family: "BebasRegular", sans-serif;
+    font-size: 2em;
+}
+
+.mark {
+    padding-left: 50px;
+}
+
+.mark img {
+    float: left;
+    clear: left;
+    margin-right: 18px;
+}
+
+.mark p {
+    margin: 5px 0;
+    padding: 5px;
+    font: 0.988em Helvetica, sans-serif;
+    color: #404040;
+    float: right;
+    border-bottom: 1px solid #8d9774; 
+}
+
+.terry {
+    padding-left: 50px;
+}
+
+.terry img {
+    float: left;
+    clear: left;
+    margin-right: 18px;
+}
+
+.terry p {
+    margin: 5px 0;
+    padding: 5px;
+    font: 0.988em Helvetica, sans-serif;
+    color: #404040;
+    float: right;
+    border-bottom: 1px solid #8d9774; 
+}
+
+.ingie {
+    padding-left: 50px;
+}
+
+.ingie img {
+    float: left;
+    clear: left;
+    margin-right: 18px;
+}
+
+.ingie p {
+    margin: 5px 0;
+    padding: 5px;
+    font: 0.988em Helvetica, sans-serif;
+    color: #404040;
+    float: right;
+    border-bottom: 1px solid #8d9774; 
+}
+
+.mike {
+    padding-left: 50px;
+}
+
+.mike img {
+    float: left;
+    clear: left;
+    margin-right: 18px;
+}
+
+.mike p {
+    margin: 5px 0;
+    padding: 5px;
+    font: 0.988em Helvetica, sans-serif;
+    color: #404040;
+    float: right;
+    border-bottom: 1px solid #8d9774; 
+}
+
+.marilyn {
+    padding-left: 50px;
+}
+
+.marilyn img {
+    float: left;
+    clear: left;
+    margin-right: 18px;
+}
+
+.marilyn p {
+    margin: 5px 0;
+    padding: 5px;
+    font: 0.988em Helvetica, sans-serif;
+    color: #404040;
+    float: right;
+    border-bottom: 1px solid #8d9774; 
+}
+
+
+/* ==========================================================================
+   Contact Us 
+   ========================================================================== */
+
+.thanks {
+    clear: left;
+    overflow: hidden;
+    float: left;
+    width: 36.585365853659%; /*300px*/
+    margin-left: 20px;
+}
+
+.thanks h2 {
+    font: 2.438em "BebasRegular", sans-serif;
+    padding-right: 90px;
+}
+
+.thanks p {
+    font: 1.338em Helvetica, sans-serif;
+    color: #404040;
+    margin-right: 45px;
+}
+
+.contactmap {
+    float: right;
+    width: 54.878048780488%; /*450*/
+}
+
+.contactmap img {
+    width: 91.111111111111%; /*410*/
+    margin-left: 30px;
+}
+
+
+/* ==========================================================================
+   Form 
+   ========================================================================== */
+
+#form {
+    margin-top: 2.222222%; /* 20px; */
     display: block;
-    width: 0;
-    height: 100%;
+    clear: left;
 }
 
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
+form {
+    width: 42.682926829268%; /* 350px; */
+    float: left;
+    margin: 2.222222%; /* 20px; */
+    border: none;
+    font-family: Helvetica, sans-serif;
     clear: both;
 }
 
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
+form label {
+    display: block;
+    background-color: #d6dac9;
+    float: left;
+    clear: left;
+    margin: 3.333333333333% 0; /* 10px; */
+}
 
-.clearfix {
-    *zoom: 1;
+form label b {
+    display: block;
+    float: left;
+    background-color: #d6dac9;
+    width: 26.666666666667%; /* 80px; */
+    margin-right: 2.222222%; /* 20px; */
+}
+
+form label input, form label textarea, form label select {
+    float: left;
+    width: 180px;
+    margin-left: 60px;
+    padding-left: 80px;}
+
+
+form label input [type="radio"]
+form label input [type="checkbox"] {
+    background-color: #d6dac9;
+    padding-left: 80px;
+    width: 26.666666666667%; /* 80px; */
+}
+
+form p {
+    clear: left;
+    padding-left: 80px;
+    margin: 10px 0 0;
+    te
+}
+
+form input [type="submit"] {
+    float: left;
+}
+
+.submit {
+    background-color:#5f6c3d;
+    display:inline-block;
+    color:#e3deb9;
+    font-family: helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    padding:13px 50px;
+    text-decoration:none;
+}
+.submit :hover {
+    background-color:#e3deb9;
+    color: #5f6c3d;
+}
+.submit :active {
+    position:relative;
+    top:1px;
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Contact Info
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+.contactinfo {
+    float: right;
+    width: 42.682926829268%; /* 350px; */
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) {
-    /* Style adjustments for high resolution devices */
+.contactinfo h2 {
+    font: 2.438em "BebasRegular", sans-serif;
+    padding-right: 90px; 
 }
 
+.contactinfo p {
+    font: 1.338em Helvetica, sans-serif;
+    color: #404040;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.contactinfo #hours {
+    margin-top: 5px;
+}
+
+.officehours {
+    font: 2.438em "BebasRegular", sans-serif;
+    color: #8d9870;
+}
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Footer 
    ========================================================================== */
 
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+footer {
+    width: 100%; /*820 px*/
+    padding-top: 20px;
+    overflow: hidden;
+    clear: both;
 }
+
+footer h2 {
+    width: 60.560976%; /*677 px*/
+    font-size: .85em; 
+    color: #5f6c3d;
+    margin-bottom: 0px;
+    float: left;
+    overflow: hidden;
+}
+
+footer ul {
+    width: 18.439024%; /*143*/
+    float: right;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+
+
+
+
+
+
+
