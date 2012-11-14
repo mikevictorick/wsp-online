@@ -781,56 +781,6 @@ footer ul li {
     @media screen and (min-width: 480px) and (max-width: 767px) 
     {
         
-
-        header {
-            min-height: 30px;
-            max-height: 130px;
-        }
-
-        header img {
-              padding-bottom: 10px;
-        }
-
-        nav {
-            width: 480px;
-            height: 3.3em; /*55px;*/
-            margin-bottom: 1.0em; /*10px;*/
-            background-color: #e4dfbd; 
-        }
-
-        nav ul {
-            margin: 0 auto;
-            list-style-type: none;
-            line-height: 1em; /*55px;*/
-            float: none;
-        }
-
-        nav ul li {
-            width: 10.243902439024%; /*125px*/
-            font-family: "BebasRegular", sans-serif;
-            font-size: 1em; /*24px*/
-            display: inline;
-            margin: 0 auto;
-            padding: 15px;
-        }
-
-        nav ul li a:link {
-            text-decoration: none;
-            color: #b7be91;
-            background-color: #e4dfbd;
-        }
-
-        nav ul li a:visited {
-            color: #b7be91;
-        }
-
-        nav ul li a:hover {
-            color: #5f6c3d;
-        }
-
-        nav ul li a:active {
-            color: #8d9774;
-        }
         .times, .sermons, .contact { float:none; clear; both width: }
         .believe { visibility: hidden; clear:both; overflow: hidden; }
         .meetourstaff {clear: both;}
@@ -841,7 +791,6 @@ footer ul li {
     {
         .believe, .meetourstaff img  { visibility: hidden; float: none;}
         .times, .sermons, .contact { float:none; clear; both width: overflow:hidden;}
-        { visibility: hidden;}
 
 
         .id { float: none; clear: both; }
