@@ -1,0 +1,266 @@
+/*=======================================================================
+
+	❤❤❤ Gumby by Digital Surgeons. ❤❤❤
+	
+	*** This is where you should keep all of your design specific styles ***
+ 
+ ========================================================================*/
+
+body {
+	margin-top: 40px;
+}
+
+h3.h5bp {
+		  border: 0;
+		  font: 0/0 a;
+		  text-shadow: none;
+		  color: transparent;
+		  background: url(test.png);
+}
+
+.believe img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/* ==========================================================================
+   Times of Service
+   ========================================================================== */
+
+#timessermonscontact {
+    margin: 0 auto;
+}
+
+
+.times {
+    display: block;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 29.268292682927%; /*240px*/
+    height: 15em;
+    background-color: #5f6c3d;
+}
+
+.times ul; {
+    margin: 0;
+    padding: 0;
+}
+
+.times ul li {
+    margin: 0 auto;
+    list-style-type: none;
+    font: 1em "Helvetica Nueu", sans-serif;
+    color: #d1d6cf; 
+}
+
+.times ul li h2 {
+    margin-left: -20px;
+    padding: 0;
+    font: 1.938em "BebasRegular", sans-serif;
+    color: #e4dfb9; 
+}
+
+.times ul li h3 {
+    margin-left: -10px;
+    padding: 0;    
+}
+
+
+
+
+
+/* ==========================================================================
+   Favorite Sermons
+   ========================================================================== */
+.sermons {
+    display: block;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 29.268292682927%; /*240px*/
+    height: 15em;
+    background-color: #5f6c3d;
+}
+
+.sermons ul; {
+    padding: 0;
+}
+
+.sermons ul li {
+    margin: 0 auto;
+    padding: 0px;
+    list-style-type: none;
+    font: 1em "Helvetica Nueu", sans-serif;
+    color: #d1d6cf; 
+}
+
+.sermons ul li h2 {
+    margin-left: -20px;
+    padding: 0;
+    font: 1.938em "BebasRegular", sans-serif;
+    color: #e4dfb9; 
+}
+
+.sermons ul li a:link {
+    color: #d1d6cf;
+    font: 1.5em "BebasRegular", sans-serif;
+}
+
+.sermons ul li a:visited {
+    color: #b7be91;
+}
+
+.sermons ul li a:hover {
+    color: #e4dfb9;
+}
+
+.sermons ul li a:active {
+    color: #8d9774;
+}
+
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+.contact {
+    display: block;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 29.268292682927%; /*240px*/
+    height: 15em;
+    background-color: #5f6c3d;
+}
+
+.contact ul; {
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 0 auto;
+    padding: 0px;
+    list-style-type: none;
+    font: 1em "Helvetica Nueu", sans-serif;
+    color: #d1d6cf; 
+}
+
+.contact ul li h2 {
+    margin-left: -20px;
+    padding: 0;
+    font: 1.938em "BebasRegular", sans-serif;
+    color: #e4dfb9; 
+}
+
+.contact ul li h3 {
+    margin-left: -10px;
+    padding: 0;    
+}
+
+.fifteen.centered h2 {
+	margin-left: 10px;
+	margin-bottom: -20px;
+} 
+
+.fifteen.centered p {
+	margin: 20px;
+}
+
+.pretty.tabs {
+	margin: 20px;
+}
+
+.ourstaff {
+	border-bottom: 2px solid #e3deb9;
+}
+
+.media {
+	margin-top: 20px;
+}
+
+.map {
+	margin-top: 20px;
+}
+
+.five.columns p {
+	padding-left: 25px;
+	padding-right: 20px;
+}
+
+form {
+	margin-left: 25px;
+}
+
+footer p {
+	margin-top: 15px;
+}
+
+footer ul li {
+    display: inline;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+	
+	@media only screen and (max-width: 480px) {
+	  /* Style adjustments for viewports 480px and under go here */
+	  
+
+	  footer ul li {
+    	 float: none;
+	  }
+
+	  .times, .contact {
+	  	 border:2px solid #d7d8c9;
+   		 padding-left: 0px;
+	  }
+
+	  .sermons {
+	  	 display: none;
+	  }
+
+	  form {
+		 margin-left: 0px;
+		}
+
+	  .five.columns p {
+		 padding-left: 25px;
+		 padding-right: 20px;
+		}
+
+	}
+	
+	@media only screen and (max-width: 767px) {
+		body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+		
+		.container { min-width: 0; margin-left: 0; margin-right: 0; }
+		.row { width: 100%; min-width: 0; margin-left: 0; margin-right: 0; }
+		.row .row .column, .row .row .columns { padding: 0; }
+		.column, .columns { width: auto !important; float: none; margin-left: 0; margin-right: 0; }
+		.column:last-child, .columns:last-child { margin-right: 0; float: none; }
+		.row .row .column, .row .row .columns { padding: 0; }
+		.column, .columns { width: auto !important; float: none; margin-left: 0px; margin-right: 0px; }
+		.column:last-child, .columns:last-child { margin-right: 0; float: none; }
+		[class*="column"] + [class*="column"]:last-child { float: none; }
+		[class*="column"]:before, [class*="column"]:after { display: table; }
+		[class*="column"]:after { clear: both; }
+		
+		
+		.push_one, .push_two, .push_three, .push_four, .push_five, .push_six, .push_seven, .push_eight, .push_nine, .push_ten, .push_eleven, .centered { margin-left: 0% !important; }
+	}
+ 

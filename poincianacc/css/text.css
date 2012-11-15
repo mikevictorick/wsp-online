@@ -1,0 +1,59 @@
+/*=======================================================================
+
+	❤❤❤ Gumby by Digital Surgeons. ❤❤❤
+	
+	*** This is where you should keep all of your TEXT styles ***
+ 
+ ========================================================================*/
+ 
+ 	
+
+ /*=======================================================================
+
+	Fonts
+	
+ ========================================================================*/
+ 
+ 
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../bebas/BEBAS___-webfont.eot');
+    src: url('../bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bebas/BEBAS___-webfont.woff') format('woff'),
+         url('../bebas/BEBAS___-webfont.ttf') format('truetype'),
+         url('../bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+nav ul li {
+	font-family: "BebasRegular", sans-serif;
+}
+
+footer {
+    font: 1.143em/1em "BebasRegular", sans-serif;
+    color: #8d9870;
+    margin-top: 15px;
+}
+
+
+
+
+ 
+ /* ==|== media queries ======================================================
+    PLACEHOLDER Media Queries for Responsive Design.
+    These override the primary ('mobile first') styles
+    Modify as content requires.
+    ========================================================================== */
+ 
+ @media only screen and (min-width: 480px) {
+   /* Style adjustments for viewports 480px and over go here */
+ 
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   /* Style adjustments for viewports 768px and over go here */
+ 
+ }

@@ -1,57 +1,156 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Poinciana Christian Church</title>
-        <meta name="description" content="main content, slideshow, sermon times">
-        <meta name="viewport" content="width=device-width">
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en" itemscope itemtype="http://schema.org/Product"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+  <title>Poinciana Christian Church</title>
+  <meta name="description" content="Our Ministries! Poinciana Christian Church located in Kissimmee, FL!" />
+  <meta name="keywords" content="ministries, small group, student ministries, children ministries, nursery, singles ministries," />
+  <meta name="author" content="humans.txt">
+  
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  
+ 
 
-        <!-- Add your site or application content here -->
-        <!-- Main Navigation -->
-    <div id="wrapper">    
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <!-- <link rel="stylesheet" href="css/minified.css"> -->
+  
+  <!-- CSS imports non-minified for staging, minify before moving to production-->
+  <link rel="stylesheet" href="css/imports.css">
+  <!-- end CSS-->
 
-        <header>
-            <h2>
-            <span class="logo-text">Poiciana Christian Church</span> 
-            </h2>
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+  
+    <header class="row">
+      <h3 class="h5bp">
+        Poinciana Christian Church
+      </h3>
             
-            <div class="logo">
-            <img src="''" alt="Logo"> 
-            </div>
-            
-            
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="ministries.html">Ministries</a></li>
-                    <li><a href="ourstaff.html">Our Staff</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="media.html">Media</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>          
-        </header>
+        <img src="img/logo.png" alt="Logo"> 
+
+      <nav class="navbar clearfix" id="basicnav">
+        <a href="#" class="toggle" data-for="#basicnav > ul"><img src="img/icon_nav_toggle.gif" alt="icon nav" /></a>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="ministries.html">Ministries</a></li>
+              <li><a href="ourstaff.html">Our Staff</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="media.html">Media</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <section class="row">
+      <div class="fifteen centered">
+        <h2>Our Ministries!</h2>
+          <p>Poinciana Christian Church offers its members many opportunities to Believe, Belong and Become a Servant of God through its various ministries.</p>
+      </div>   
+
+        <section class="pretty tabs">
+          <ul>
+            <li class="active"><a href="#tab4">Small Groups</a></li>
+            <li><a href="#tab5">Students & Children</a></li>
+            <li><a href="#tab6">Worship</a></li>
+          </ul>
+          <div class="active" data-tab="tab4">
+            <h3>Small Groups</h3>
+            <p>Poinciana Christian Church offers Small Groups to be a place for people to build relationships and do life together through Bible Study, Prayer, Fellowship, and Service. It is our purpose that Small Group participants not only grow in their relationships with people, but they also grow in their relationship with Christ. Please feel free to <a href="contact.html">Contact Us</a> for more information!</p>
+          </div>
+          <div data-tab="tab5">
+              <img src="img/fuel.jpg" class="five columns" alt="Student Life Groups!"> 
+              <p class="seven columns">The youth group at Poinciana Christian Church exists for several reasons. The first and foremost is to glorify God and worship him above all else. We also want to a welcoming and inviting place for those that don’t already have a relationship with Jesus Christ.We welcome all students to come and check us out at any of our events or programs to see what we are all about. If you have any questions or would like to chat feel free to contact our church office.</p>
+
+              <p>Our children's ministry team exists to nurture faith in the God of the Bible in the hearts and minds of children from 3 years of age through the fifth grade. We try to accomplish this through effective biblical teaching and through loving relationships. Our team has a lot of fun with the children under our care, and we especially enjoy teaching them about Jesus. Our team consists of dedicated teachers and assistants who love God and who love children. We offer the following classes on Sunday mornings during both the 9:00 & 10:30 worship services as well as on Wednesday evenings (7:00-8:00) during the adult Bible study: Pre-K (3-5 years ), K & 1st grade, 2nd & 3rd grades, and 4th & 5th grades. To enhance the safety of your child, please escort your child to his/her classroom. Please sign your child in on the form located outside the classroom and include your child’s ID #. Should we need to summon you during the service your child’s ID # will flash on the pagers in the auditorium. Please return promptly to your child’s classroom following the service. Your child will be released to an authorized person with a valid ID card or visitor badge. If you have any questions, please refer to the classroom security policy posted outside the classrooms, nursery and Welcome Center.</p>
+              <p>Thank you for your cooperation in ensuring the safety of your child.</p>
+
+          </div>
+          <div data-tab="tab6" class="rows">
+            <h3>Worship Ministry</h3>
+
+            <p class="twelve columns">The purpose of this ministry is to lead the local Body of Christ in a dynamic, corporate expression of praise and worship to the God of the Bible, using vocal and instrumental music (Psalm 98:4-6; 33:1-3).</p>
+
+            <p class="twelve columns">The purpose of worship is to bring pleasure to God; to glorify and please Him. And, to bring transformation to our lives.</p>
+
+            <img src="img/worship.png" class="five columns" alt="Poincianna Worship Service">
+            <p class="six columns">Transformation is part of the purpose and result of worship. Worship is not something done to us or for  us, but by us. Those leading worship must seek to focus the attention on the wonderful God of mercy and grace. To truely lead worship, one must have not only musical ability, but also a worshipping heart. Worship  is a lifestyle. Our personal worship of the Lord affects everything we do and everything we are. Leading corporate worship cannot be left to our personal feelings. We must always put ourselves aside and be willing to offer a "sacrifice of praise" (Hebrews 13:5). One of the greatest discoveries of our Christian life comes as we begin to understand what God can do, and does do, as experience His presence in worship.</p>
+
+            <p class="twelve columns">Those interested in this ministry must first make an appointment with the worship minister for an interview, and schedule a time for an audition to determine how they will fit with the team.</p> 
+          </div>
+        </section>
+    </section>
+
+    <footer class="row">
 
 
-        <footer>Copyright 2012 Poinciana Christian Church</footer>
+      <p class="eight columns">Copyright 2012 Poinciana Christian Church</p>
 
-    </div>    
-    </body>
+
+      <ul class="four columns push_eleven">
+        <li><a href="http://www.twitter.com"><img src="img/twitter.png" alt="twitter icon"></a></li>
+        <li><a href="http://www.facebook.com"><img src="img/facebook.png" alt="facebook icon"></a></li>
+        <li><a href="http://www.pinterest.com"><img src="img/pinterest.png" alt="pinterest icon"></a></li>
+      </ul>       
+    </footer>
+
+          
+  </div> <!--! end of #container -->
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+  <script src="js/libs/gumby.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- end scripts-->
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. We suggest that you not support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+  <!-- Social Widget Rendering Javascript /-->
+  <script src="http://platform.twitter.com/widgets.js"></script>
+  <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+  <script type="text/javascript">
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script>
+  <!-- End Social Widget Rendering Javascript /-->
+</body>
 </html>
